@@ -42,6 +42,9 @@ public class LlmState {
                         let result = try llm.predict()
                         continuation.yield(result)
 
+                        // Let stopped be set if needed
+                        await Task.yield()
+                        
                         if cooldownMs > 0 {
                             try? await Task.sleep(
                                 nanoseconds: UInt64(cooldownMs) * 1_000_000)
