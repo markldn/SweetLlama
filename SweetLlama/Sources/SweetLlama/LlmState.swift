@@ -4,7 +4,6 @@ import llama
 @LlmActor
 public class LlmState {
     private let llm: LLM
-
     private var stopped: Bool = false
 
     public init(_ llm: LLM) {
@@ -40,11 +39,6 @@ public class LlmState {
                 do {
                     try llm.acceptPrompt(text)
                     while !llm.predictionFinished && !stopped {
-                        guard !Task.isCancelled else {
-                            llm.interrupt()
-                            break
-                        }
-
                         let result = try llm.predict()
                         continuation.yield(result)
 
@@ -53,6 +47,11 @@ public class LlmState {
                                 nanoseconds: UInt64(cooldownMs) * 1_000_000)
                         }
                     }
+
+                    if stopped {
+                        llm.interrupt()
+                    }
+
                     continuation.finish()
                 } catch {
                     continuation.finish(throwing: error)
