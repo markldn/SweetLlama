@@ -47,7 +47,7 @@ struct SweetLlamaCLI {
                 continue
             }
             messages.append(.init(role: .user, content: input))
-            let text = ChatTemplate.gemma.apply(messages)
+            let text = ChatTemplate.smollm.apply(messages)
             var response = ""
             do {
                 for try await piece in await state.predict(text: text) {

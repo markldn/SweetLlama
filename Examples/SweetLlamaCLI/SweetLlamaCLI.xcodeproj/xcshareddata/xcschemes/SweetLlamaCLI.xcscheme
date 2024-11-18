@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA32E73E2CE1D6A700A1602F"
+               BlueprintIdentifier = "FA4E51DE2CEB8CCC008037FA"
                BuildableName = "SweetLlamaCLI"
                BlueprintName = "SweetLlamaCLI"
-               ReferencedContainer = "container:SweetLlama.xcodeproj">
+               ReferencedContainer = "container:SweetLlamaCLI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA32E73E2CE1D6A700A1602F"
+            BlueprintIdentifier = "FA4E51DE2CEB8CCC008037FA"
             BuildableName = "SweetLlamaCLI"
             BlueprintName = "SweetLlamaCLI"
-            ReferencedContainer = "container:SweetLlama.xcodeproj">
+            ReferencedContainer = "container:SweetLlamaCLI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,10 +62,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FA32E73E2CE1D6A700A1602F"
+            BlueprintIdentifier = "FA4E51DE2CEB8CCC008037FA"
             BuildableName = "SweetLlamaCLI"
             BlueprintName = "SweetLlamaCLI"
-            ReferencedContainer = "container:SweetLlama.xcodeproj">
+            ReferencedContainer = "container:SweetLlamaCLI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

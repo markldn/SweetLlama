@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA32E7512CE1D8D800A1602F /* SweetLlama in Frameworks */ = {isa = PBXBuildFile; productRef = FA32E7502CE1D8D800A1602F /* SweetLlama */; };
+		FA4E51ED2CEB8D65008037FA /* SweetLlama in Frameworks */ = {isa = PBXBuildFile; productRef = FA4E51EC2CEB8D65008037FA /* SweetLlama */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FA32E73D2CE1D6A700A1602F /* CopyFiles */ = {
+		FA4E51DD2CEB8CCC008037FA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA32E73F2CE1D6A700A1602F /* SweetLlamaCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SweetLlamaCLI; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA32E7492CE1D6FC00A1602F /* SweetLlama */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SweetLlama; sourceTree = "<group>"; };
-		FA49E9642CE8D6FF00D50EFF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA4E51DF2CEB8CCC008037FA /* SweetLlamaCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SweetLlamaCLI; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FA32E7412CE1D6A700A1602F /* SweetLlamaCLI */ = {
+		FA4E51E12CEB8CCC008037FA /* SweetLlamaCLI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SweetLlamaCLI;
 			sourceTree = "<group>";
@@ -37,108 +35,98 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA32E73C2CE1D6A700A1602F /* Frameworks */ = {
+		FA4E51DC2CEB8CCC008037FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA32E7512CE1D8D800A1602F /* SweetLlama in Frameworks */,
+				FA4E51ED2CEB8D65008037FA /* SweetLlama in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA32E7362CE1D6A700A1602F = {
+		FA4E51D62CEB8CCC008037FA = {
 			isa = PBXGroup;
 			children = (
-				FA49E9642CE8D6FF00D50EFF /* README.md */,
-				FA32E7492CE1D6FC00A1602F /* SweetLlama */,
-				FA32E7412CE1D6A700A1602F /* SweetLlamaCLI */,
-				FA32E74A2CE1D70D00A1602F /* Frameworks */,
-				FA32E7402CE1D6A700A1602F /* Products */,
+				FA4E51E12CEB8CCC008037FA /* SweetLlamaCLI */,
+				FA4E51E02CEB8CCC008037FA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA32E7402CE1D6A700A1602F /* Products */ = {
+		FA4E51E02CEB8CCC008037FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA32E73F2CE1D6A700A1602F /* SweetLlamaCLI */,
+				FA4E51DF2CEB8CCC008037FA /* SweetLlamaCLI */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FA32E74A2CE1D70D00A1602F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA32E73E2CE1D6A700A1602F /* SweetLlamaCLI */ = {
+		FA4E51DE2CEB8CCC008037FA /* SweetLlamaCLI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA32E7462CE1D6A700A1602F /* Build configuration list for PBXNativeTarget "SweetLlamaCLI" */;
+			buildConfigurationList = FA4E51E62CEB8CCC008037FA /* Build configuration list for PBXNativeTarget "SweetLlamaCLI" */;
 			buildPhases = (
-				FA32E73B2CE1D6A700A1602F /* Sources */,
-				FA32E73C2CE1D6A700A1602F /* Frameworks */,
-				FA32E73D2CE1D6A700A1602F /* CopyFiles */,
+				FA4E51DB2CEB8CCC008037FA /* Sources */,
+				FA4E51DC2CEB8CCC008037FA /* Frameworks */,
+				FA4E51DD2CEB8CCC008037FA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FA32E7412CE1D6A700A1602F /* SweetLlamaCLI */,
+				FA4E51E12CEB8CCC008037FA /* SweetLlamaCLI */,
 			);
 			name = SweetLlamaCLI;
 			packageProductDependencies = (
-				FA32E7502CE1D8D800A1602F /* SweetLlama */,
+				FA4E51EC2CEB8D65008037FA /* SweetLlama */,
 			);
-			productName = SweetLlama;
-			productReference = FA32E73F2CE1D6A700A1602F /* SweetLlamaCLI */;
+			productName = SweetLlamaCLI;
+			productReference = FA4E51DF2CEB8CCC008037FA /* SweetLlamaCLI */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA32E7372CE1D6A700A1602F /* Project object */ = {
+		FA4E51D72CEB8CCC008037FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					FA32E73E2CE1D6A700A1602F = {
+					FA4E51DE2CEB8CCC008037FA = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = FA32E73A2CE1D6A700A1602F /* Build configuration list for PBXProject "SweetLlama" */;
+			buildConfigurationList = FA4E51DA2CEB8CCC008037FA /* Build configuration list for PBXProject "SweetLlamaCLI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FA32E7362CE1D6A700A1602F;
+			mainGroup = FA4E51D62CEB8CCC008037FA;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FA32E74D2CE1D8A600A1602F /* XCRemoteSwiftPackageReference "llama" */,
+				FA4E51EB2CEB8D65008037FA /* XCLocalSwiftPackageReference "../../../SweetLlama" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FA32E7402CE1D6A700A1602F /* Products */;
+			productRefGroup = FA4E51E02CEB8CCC008037FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA32E73E2CE1D6A700A1602F /* SweetLlamaCLI */,
+				FA4E51DE2CEB8CCC008037FA /* SweetLlamaCLI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA32E73B2CE1D6A700A1602F /* Sources */ = {
+		FA4E51DB2CEB8CCC008037FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,7 +136,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA32E7442CE1D6A700A1602F /* Debug */ = {
+		FA4E51E42CEB8CCC008037FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		FA32E7452CE1D6A700A1602F /* Release */ = {
+		FA4E51E52CEB8CCC008037FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,25 +254,23 @@
 			};
 			name = Release;
 		};
-		FA32E7472CE1D6A700A1602F /* Debug */ = {
+		FA4E51E72CEB8CCC008037FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRLW4RH9VQ;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		FA32E7482CE1D6A700A1602F /* Release */ = {
+		FA4E51E82CEB8CCC008037FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRLW4RH9VQ;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -293,43 +279,39 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA32E73A2CE1D6A700A1602F /* Build configuration list for PBXProject "SweetLlama" */ = {
+		FA4E51DA2CEB8CCC008037FA /* Build configuration list for PBXProject "SweetLlamaCLI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA32E7442CE1D6A700A1602F /* Debug */,
-				FA32E7452CE1D6A700A1602F /* Release */,
+				FA4E51E42CEB8CCC008037FA /* Debug */,
+				FA4E51E52CEB8CCC008037FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA32E7462CE1D6A700A1602F /* Build configuration list for PBXNativeTarget "SweetLlamaCLI" */ = {
+		FA4E51E62CEB8CCC008037FA /* Build configuration list for PBXNativeTarget "SweetLlamaCLI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA32E7472CE1D6A700A1602F /* Debug */,
-				FA32E7482CE1D6A700A1602F /* Release */,
+				FA4E51E72CEB8CCC008037FA /* Debug */,
+				FA4E51E82CEB8CCC008037FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		FA32E74D2CE1D8A600A1602F /* XCRemoteSwiftPackageReference "llama" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ggerganov/llama.cpp";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		FA4E51EB2CEB8D65008037FA /* XCLocalSwiftPackageReference "../../../SweetLlama" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../SweetLlama;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA32E7502CE1D8D800A1602F /* SweetLlama */ = {
+		FA4E51EC2CEB8D65008037FA /* SweetLlama */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SweetLlama;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FA32E7372CE1D6A700A1602F /* Project object */;
+	rootObject = FA4E51D72CEB8CCC008037FA /* Project object */;
 }

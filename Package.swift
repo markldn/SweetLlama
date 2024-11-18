@@ -27,6 +27,5 @@ let package = Package(
             dependencies: [
                 .product(name: "llama", package: "llama.cpp")
             ]),
-
     ]
 )
