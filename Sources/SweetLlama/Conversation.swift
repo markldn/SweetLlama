@@ -1,6 +1,7 @@
 import Foundation
 
-public class Conversation: ObservableObject, Codable {
+public class Conversation: Identifiable, ObservableObject, Codable {
+    public var id = UUID()
     @Published public var title: String
     @Published public var messages: [Message]
     
@@ -36,17 +37,19 @@ public class Conversation: ObservableObject, Codable {
     }
     
     public enum CodingKeys: CodingKey {
-        case title, messages
+        case id, title, messages
     }
     
     public required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = (try? container.decode(UUID.self, forKey: .id)) ?? UUID()
         title = try container.decode(String.self, forKey: .title)
         messages = try container.decode([Message].self, forKey: .messages)
     }
     
     public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(id, forKey: .id)
         try container.encode(title, forKey: .title)
         try container.encode(messages, forKey: .messages)
     }
