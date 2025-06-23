@@ -14,7 +14,7 @@ let package = Package(
             targets: ["SweetLlama"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ggerganov/llama.cpp", branch: "master"),
+        .package(url: "https://github.com/markldn/llama.cpp", branch: "master"),
     ],
     targets: [
         .target(
