@@ -17,7 +17,7 @@ let package = Package(
             targets: ["SweetLlama"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ggerganov/llama.cpp", revision: "fa4a9f2"), // b5740
+       .package(url: "https://github.com/markldn/llama.cpp.git", branch: "master"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
